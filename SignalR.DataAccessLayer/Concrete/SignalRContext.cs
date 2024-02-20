@@ -8,7 +8,7 @@ namespace SignalR.DataAccessLayer.Concrete
 	{
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost; Database=SignalRDb; User Id=sa; Password=Ee0535387330.");
+            optionsBuilder.UseSqlServer("Server=localhost; Database=SignalR; User Id=sa; Password=Ee0535387330.");
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Booking> Bookings { get; set; }
